@@ -1,0 +1,68 @@
+textarea{
+    resize: none;
+}
+  .create-container{
+    max-width: 600px;
+    margin:0 5px;
+  }
+  .cpContainer {
+    padding: 20px;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cpContainer h1 {
+    text-align: center;
+  }
+  
+  .cpContainer label {
+    font-size: 25px;
+  }
+  .cpContainer .inputGp {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGp input,
+  .inputGp textarea {
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+  }
+  
+  .inputGp input {
+    height: 40px;
+  }
+  .inputGp textarea {
+    height: 150px;
+  }
+  
+  .cpContainer button {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  input,
+  textarea {
+    margin-top: 5px;
+  }
+  .btn-submit{
+    justify-content: center;
+    color: #fefef5;
+    background-color:#262626 ;
+    transition: all 1s  ease-in-out;
+
+}
+.btn-submit:hover{
+    color: #262626;
+    background-color: #fefef5;
+    border: 0.1rem solid #262626;
+}

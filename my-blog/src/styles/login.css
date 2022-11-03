@@ -1,0 +1,17 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn-login{
+    color: #fefef5;
+    background-color:#262626 ;
+    transition: all 1s  ease-in-out;
+
+}
+.btn-login:hover{
+    color: #262626;
+    background-color: #fefef5;
+    border: 0.1rem solid #262626;
+}
